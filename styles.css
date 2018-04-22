@@ -1,0 +1,161 @@
+html {
+    font-family: "Oswald"; 
+    margin: 1em 20%;
+    background-color:brown;
+  
+  }
+
+
+nav {
+    float: left;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2.2em 2em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  
+  }
+  nav ul li {
+    display: inline;
+    padding: 0 .4em;
+  }
+  nav ul li a {
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    padding-bottom: 1.3em;
+    transition: .5s color;
+  }
+  nav ul li a:hover {
+    border-bottom: 3px solid white;
+  }
+  #m:hover {
+    color:white;
+  }
+  #c:hover {
+    color:white;  /* hover effect for different navigation buttons */
+  }
+  #so:hover {
+    color: white;
+  }
+  #cv:hover {
+    color:white;
+  }
+  #ab:hover {
+    color:white;
+  }
+  #h:hover {
+    color:white;
+}
+
+body {
+  margin-top: 90px;
+}
+
+.picture {
+    position: fixed; 
+    top:110px;
+    left:300px;
+    width:560px;
+    height:500px;
+}
+.about {
+position: fixed;
+top: 110px;
+left:120px;
+width: 1200px;
+height:700px;
+border: 3px solid rgb(250, 250, 242);
+font-size: 25px;
+}
+.mgp {
+  position: fixed;
+  top: 110px;
+  left:300px;
+  width: 1200px;
+  height:700px;
+  border: 3px solid rgb(250, 250, 242);
+  font-size: 27px;
+  }
+
+.map {
+  position: fixed;
+  top: 200px;
+  left:520px;
+  width: 605px;
+  height:455px;
+  border: 3px solid rgb(250, 250, 242);
+  
+}  
+
+.socialgit {
+  position: fixed;
+  top: 200px;
+  left:520px;
+  width: 250px;
+  height:200px;
+  border: 3px solid rgb(250, 250, 242);
+  
+}  
+
+.socialreddit {
+  position: fixed;
+  top: 200px;
+  left:1000px;
+  width: 250px;
+  height:200px;
+  border: 3px solid rgb(250, 250, 242);
+  
+}  
+
+
+.myimage {
+  position: fixed;
+  bottom: 400px; 
+  right:50px;
+  width: 300px;
+  height: 300px;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.one {
+  flex: 1 1 auto;
+
+  width: 800px;
+  height: 700px;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 20px;
+
+}
+
+.h1 {
+  font-size: 10px;
+}
+
+.two {
+  flex: 1 1 auto;
+ 
+  width: 800px;
+  height: 700px;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+  footer {                    /* styles for page footer */
+    position: absolute;
+      bottom: 0px;
+      width: 55%;
+      text-align: center;
+      color: white;
+  }
+
